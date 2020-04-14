@@ -2,7 +2,7 @@
 # Terraform installation (run with sudo)
 
 echo "Installing dependencies..."
-apt-get update
+apt-get update &> /dev/null
 apt install unzip -y &> /dev/null
 
 echo ""
