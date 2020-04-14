@@ -1,6 +1,8 @@
 #!/bin/bash
 # Terraform installation (run with sudo)
 
+echo "PLEASE RUN WITH SUDO"
+
 echo "Installing dependencies..."
 apt-get update &> /dev/null
 apt install unzip -y &> /dev/null
